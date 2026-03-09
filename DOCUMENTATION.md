@@ -3,14 +3,8 @@ Generated: 2026-03-09
 
 A simple character controller for platformer games in Godot
 
-## 🔗 Dependencies
-
-
-### Manual
-# Add non-Godot dependencies below
----
-
 ## Class: PlatformerCharacter
+**Inherits:** [CharacterBody2D](https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html)
 
 
 ### ⚙️ Inspector Variables (Exported)
