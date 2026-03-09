@@ -3,12 +3,6 @@ Generated: 2026-03-09
 
 A simple character controller for platformer games in Godot
 
-### 🐧 Linux / MacOS
-To add this to your project, copy paste this command into terminal at the root of your project:
-```bash
-clone-gd-addon https://github.com/ChillCube/Godot_PlatformerCharacterController.git
-```
-
 ## Class: PlatformerCharacter
 
 
