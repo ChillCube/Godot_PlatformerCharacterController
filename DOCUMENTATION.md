@@ -26,13 +26,10 @@ A simple character controller for platformer games in Godot
 | **dashes** | `int` | `1` | how many dashes the character is allowed to do at once |
 | **dashes_used** | `int` | `0` | how many dashes the character has used |
 | **dash_vector** | `Vector2` | `Vector2.ZERO` | the direction and speed of the dash |
-| **dash_timer** | `SceneTreeTimer` | `get_tree().create_timer(0)` | the timer that is used to keep track of the length of a dash |
-| **dash_timeout_timer** | `SceneTreeTimer` | `get_tree().create_timer(0)` | the timer that is used to keep track of timeout time in between dashes |
 | **knockback_speed** | `float` | `5` | determines how fast the knockback will be |
 | **knockback_time** | `float` | `0.5` | determines how long the knockback will be |
 | **knockback_falloff** | `float` | `0.3` | determines how quickly the knockback goes from full speed to nothing |
 | **knockback_vector** | `Vector2` | `Vector2.ZERO` | shows the direction and speed of the knockback |
-| **knockback_timer** | `SceneTreeTimer` | `get_tree().create_timer(0)` | the timer that is used to keep track of the length of the knockback |
 | **input_dash** | `String` | `"dash"` | the input that is used to perform a dash |
 | **input_left** | `String` | `"ui_left"` | the input that is used to move left |
 | **input_right** | `String` | `"ui_right"` | the input that is used to move right |
