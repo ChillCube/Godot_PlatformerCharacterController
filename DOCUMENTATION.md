@@ -51,9 +51,9 @@ A simple character controller for platformer games in Godot
 ### Signals
 | Signal | Description |
 | :--- | :--- |
-| **moving(direction_and_speed** |  Emitted when the character is moving and returns the direction and speed of this dash using a Vector2 (length of vector = speed, the vector itself shows the direction) |
-| **started_dashing(direction_and_speed** |  Emitted when the character dashes and returns the direction and speed of this dash using a Vector2 (length of vector = speed, the vector itself shows the direction) |
-| **used_a_dash(dashes_left** |  emitted when the character performs a dash. Returns how many dashes the character has left and what the maximum amount of dashes are.  |
+| **moving** |  Emitted when the character is moving and returns the direction and speed of this dash using a Vector2 (length of vector = speed, the vector itself shows the direction) |
+| **started_dashing** |  Emitted when the character dashes and returns the direction and speed of this dash using a Vector2 (length of vector = speed, the vector itself shows the direction) |
+| **used_a_dash** |  emitted when the character performs a dash. Returns how many dashes the character has left and what the maximum amount of dashes are.  |
 | **stopped_dashing** |  emitted when the character is finished tashing |
 | **jumping** |  emitted when the character jumps |
 | **moving_down** |  emitted when the character is moving down (holding the down button while falling) |
@@ -61,7 +61,7 @@ A simple character controller for platformer games in Godot
 | **moving_right** |  emitted when the character walks to the right |
 | **touching_floor** |  emitted when the character touches the floor |
 | **stopped_moving** |  emitted when the character is no longer moving |
-| **knocked_back(direction** |  emitted when the character is being knocked back. It returns the direction and the strength of the knockback as seperate values.  |
+| **knocked_back** |  emitted when the character is being knocked back. It returns the direction and the strength of the knockback as seperate values.  |
 | **knockback_stopped** |  emitted when the character was knocked back and the knockback has stopped |
 
 ---
