@@ -1,7 +1,14 @@
 # Godot_PlatformerCharacterController API Reference
-Generated: 2026-03-09
+Generated on: 2026-03-09
 
 A simple character controller for platformer games in Godot
+
+### 📦 Dependencies
+| Addon | Repository |
+| :--- | :--- |
+| Godot_SmoothMovement | [Link](https://github.com/ChillCube/Godot_SmoothMovement) |
+
+---
 
 ## Class: PlatformerCharacter
 **Inherits:** [`CharacterBody2D`](https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html)
