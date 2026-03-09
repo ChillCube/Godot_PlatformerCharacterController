@@ -26,34 +26,15 @@ A simple character controller for platformer games in Godot
 | **dashes** | `int` | `1` | how many dashes the character is allowed to do at once |
 | **dashes_used** | `int` | `0` | how many dashes the character has used |
 | **dash_vector** | `Vector2` | `Vector2.ZERO` | the direction and speed of the dash |
-| **dash_timer** | `SceneTreeTimer` | `get_tree().create_timer(0)` | the timer that is used to keep track of the length of a dash |
-| **dash_timeout_timer** | `SceneTreeTimer` | `get_tree().create_timer(0)` | the timer that is used to keep track of timeout time in between dashes |
 | **knockback_speed** | `float` | `5` | determines how fast the knockback will be |
 | **knockback_time** | `float` | `0.5` | determines how long the knockback will be |
 | **knockback_falloff** | `float` | `0.3` | determines how quickly the knockback goes from full speed to nothing |
 | **knockback_vector** | `Vector2` | `Vector2.ZERO` | shows the direction and speed of the knockback |
-| **knockback_timer** | `SceneTreeTimer` | `get_tree().create_timer(0)` | the timer that is used to keep track of the length of the knockback |
 | **input_dash** | `String` | `"dash"` | the input that is used to perform a dash |
 | **input_left** | `String` | `"ui_left"` | the input that is used to move left |
 | **input_right** | `String` | `"ui_right"` | the input that is used to move right |
 | **input_down** | `String` | `"ui_down"` | the input that is used to move down |
 | **input_jump** | `String` | `"ui_up"` | the input that is used to jump |
 | **deadzone** | `float` | `0.1` | the deadzone on the controller (to prevent stick drift) |
-
-### Signals
-| Signal | Description |
-| :--- | :--- |
-| **moving** | Emitted when the character is moving and returns the direction and speed of this dash using a Vector2 (length of vector = speed, the vector itself shows the direction) |
-| **started_dashing** | Emitted when the character dashes and returns the direction and speed of this dash using a Vector2 (length of vector = speed, the vector itself shows the direction) |
-| **used_a_dash** | emitted when the character performs a dash. Returns how many dashes the character has left and what the maximum amount of dashes are. |
-| **stopped_dashing** | emitted when the character is finished tashing |
-| **jumping** | emitted when the character jumps |
-| **moving_down** | emitted when the character is moving down (holding the down button while falling) |
-| **moving_left** | emitted when the character walks to the left |
-| **moving_right** | emitted when the character walks to the right |
-| **touching_floor** | emitted when the character touches the floor |
-| **stopped_moving** | emitted when the character is no longer moving |
-| **knocked_back** | emitted when the character is being knocked back. It returns the direction and the strength of the knockback as seperate values. |
-| **knockback_stopped** | emitted when the character was knocked back and the knockback has stopped |
 
 ---
