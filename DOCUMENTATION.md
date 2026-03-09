@@ -6,6 +6,8 @@ A simple character controller for platformer games in Godot
 ---
 
 ## Class: PlatformerCharacter
+**Inherits:** `CharacterBody2D`
+
 ### Properties
 | Property | Type | Default | Description |
 | :--- | :--- | :--- | :--- |
