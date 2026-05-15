@@ -170,3 +170,4 @@ func emit_direction() -> void:
 		emit_signal("moving_left")
 	else: # angle >= -3 * PI/4 and angle < -PI/4
 		emit_signal("moving_up")
+
